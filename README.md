@@ -15,8 +15,6 @@ This repository contains synthetic datasets designed to emulate the behavior and
 
 ## Repository Structure
 
-- `data/`: Contains the `slice_performance_data.parquet` file with the dataset.
-- `metadata.json`: Provides detailed information about the dataset's variables, including descriptions and data types.
 - `LICENSE`: Specifies the terms under which the dataset can be used.
 - `README.md`: This document, providing an overview of the dataset and usage guidelines.
 
@@ -28,10 +26,10 @@ To load the dataset in Python using the `pandas` library:
 import pandas as pd
 
 # Load the dataset
-df = pd.read_parquet('data/slice_performance_data.parquet')
+df_Train = pd.read_parquet('data/slice_performance_data.parquet')
+df_Test = pd.read_parquet('')
 ```
-## License
+## Data Availability
 
-This dataset is made available under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. You are free to copy, modify, distribute, and use the data, even for commercial purposes, without asking permission. While attribution is not legally required, it is appreciated.
-
-
+The dataset associated with this work is available on Zenodo.  
+[![DOI](https://zenodo.org/badge/DOI/your-doi-here.svg)](https://doi.org/your-doi-here)
