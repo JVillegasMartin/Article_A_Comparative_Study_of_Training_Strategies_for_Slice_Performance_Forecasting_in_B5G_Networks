@@ -32,4 +32,4 @@ df_Test = pd.read_parquet('')
 ## Data Availability
 
 The dataset associated with this work is available on Zenodo.  
-[![DOI](https://zenodo.org/badge/DOI/your-doi-here.svg)](https://doi.org/your-doi-here)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15125203.svg)](https://doi.org/10.5281/zenodo.15125203)
