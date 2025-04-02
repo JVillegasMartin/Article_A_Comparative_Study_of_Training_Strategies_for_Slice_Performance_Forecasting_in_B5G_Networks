@@ -11,7 +11,7 @@ This repository originally hosted the dataset utilized in the research article t
 
 ## Dataset Description
 
-The dataset consists of synthetic canonical series designed to emulate the behavior and characteristics of measurements and metrics collected from B5G network slices. These synthetic data were generated after a detailed analysis of simulated data to identify seasonality and correlation patterns. The primary goal is to support the training and evaluation of various forecasting strategies for slice performance, as discussed in the article. The dataset is stored in Parquet format to ensure efficient storage and quick access.
+The dataset consists of synthetic canonical series designed to emulate the behavior and characteristics of measurements and metrics collected from B5G network slices. These synthetic data were generated after a detailed analysis of simulated data to identify seasonality and correlation patterns. The primary goal is to support the training and evaluation of various forecasting strategies for slice performance, as discussed in the article. 
 
 ## Repository Structure
 
@@ -27,8 +27,8 @@ import pandas as pd
 
 # Load the dataset (example)
 df_train = pd.read_parquet('data/slice_performance_data_train.parquet')
-df_test = pd.read_parquet('data/slice_performance_data_test.parquet')```
-
+df_test = pd.read_parquet('data/slice_performance_data_test.parquet')
+```
 ## Data Availability
 
 The dataset associated with this work is available on Zenodo.  
