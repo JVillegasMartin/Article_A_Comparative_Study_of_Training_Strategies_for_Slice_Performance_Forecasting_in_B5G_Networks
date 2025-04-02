@@ -11,7 +11,7 @@ This repository contains the dataset utilized in the research article titled "A 
 
 ## Dataset Description
 
-The dataset comprises measurements and metrics collected from B5G network slices, used to analyze and compare various training strategies for performance forecasting. The data is stored in Parquet format to ensure efficient storage and quick access.
+This repository contains synthetic datasets designed to emulate the behavior and characteristics of measurements and metrics collected from B5G network slices. These synthetic data were generated to analyze and compare various training strategies for performance forecasting, as discussed in the article. The datasets are stored in Parquet format to ensure efficient storage and quick access.
 
 ## Repository Structure
 
